@@ -1,0 +1,11 @@
+version: '2'
+services:
+  gitbook:
+    container_name: training
+    image: billryan/gitbook:latest
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./:/gitbook
+      - ./docker-entrypoint-gitbook.sh:/apps/docker-entrypoint-gitbook.sh
+    entrypoint: /apps/docker-entrypoint-gitbook.sh
