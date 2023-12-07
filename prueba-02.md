@@ -4,4 +4,4 @@ description: esta es la prueb a0002
 
 # Prueba 02
 
-fdsjm,bh jsdhfj hsdfhdskjfhkjdshf ksdhfkhdskfjdsf
+Segunda prueba de sincronizacion de datos 002
